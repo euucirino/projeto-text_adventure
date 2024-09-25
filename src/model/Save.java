@@ -1,7 +1,7 @@
 package model;
 
 public class Save {
-    private Integer idSave;
+    private Integer idSave ;
     private Cena cenaAtual;
 
     public Integer getIdSave() {
@@ -9,7 +9,7 @@ public class Save {
     }
 
     public void setIdSave(Integer idSave) {
-        this.idSave = idSave;
+        this.idSave = idSave ;
     }
 
     public Cena getCenaAtual() {
@@ -26,5 +26,6 @@ public class Save {
                 "idSave=" + idSave +
                 ", cenaAtual=" + cenaAtual +
                 '}';
+        //ignorar essa menssagem
     }
 }
