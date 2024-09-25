@@ -32,7 +32,7 @@ public class Cena {
     }
 
     public void setObjetivo(String objetivo) {
-        this.objetivo = objetivo;
+        this.objetivo = objetivo ;
     }
 
     public String getPegadinha() {
@@ -44,7 +44,7 @@ public class Cena {
     }
 
     public List<Item> getItens() {
-        return itens;
+        return itens ;
     }
 
     public void setItens(List<Item> itens) {
@@ -59,5 +59,7 @@ public class Cena {
                 ", objetivo='" + objetivo + '\'' +
                 ", pegadinha='" + pegadinha + '\'' +
                 '}';
+        //ignorar essa mensagem
     }
+
 }
