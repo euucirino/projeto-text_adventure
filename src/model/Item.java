@@ -44,11 +44,11 @@ public class Item {
     }
 
     public Cena getCenaAtual() {
-        return cenaAtual;
+        return cenaAtual ;
     }
 
     public void setCenaAtual(Cena cenaAtual) {
-        this.cenaAtual = cenaAtual;
+        this.cenaAtual = cenaAtual ;
     }
 
     public Cena getCenaDestino() {
@@ -69,5 +69,6 @@ public class Item {
                 ", cenaAtual=" + cenaAtual +
                 ", cenaDestino=" + cenaDestino +
                 '}';
+        //ignorar essa menssagem
     }
 }
