@@ -69,6 +69,5 @@ public class Item {
                 ", cenaAtual=" + cenaAtual +
                 ", cenaDestino=" + cenaDestino +
                 '}';
-        //ignorar essa menssagem
     }
 }

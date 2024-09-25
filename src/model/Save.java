@@ -26,6 +26,5 @@ public class Save {
                 "idSave=" + idSave +
                 ", cenaAtual=" + cenaAtual +
                 '}';
-        //ignorar essa menssagem
     }
 }
